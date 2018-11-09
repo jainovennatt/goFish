@@ -74,7 +74,7 @@ string Card :: rankString(int r) const { //return "A", "2", ..."Q"
 }           //done
 
 bool Card :: operator == (const Card& rhs) const{
-    if(myRank == rhs.myRank){
+    if((myRank == rhs.myRank)&&(mySuit==rhs.mySuit)){
         return (true);
     }
     else{
@@ -83,7 +83,7 @@ bool Card :: operator == (const Card& rhs) const{
 }  //done
 
 bool Card :: operator != (const Card& rhs) const{
-    if(myRank!= rhs.myRank){
+    if((myRank != rhs.myRank)||(mySuit!=rhs.mySuit)){
         return(true);
     }
     else{

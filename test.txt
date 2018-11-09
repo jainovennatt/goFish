@@ -1,0 +1,6 @@
+ card- Qs  card- Qh  card- 2d  card- 2c  card- 4s  card- 4d  card- 9s  card- 9d  card- 7d  card- 7h  card- 9c  card- 9h
+  card- Ks  card- Kd  card- 8c  card- 8s  card- Js  card- Jd  card- 10h  card- 10d  card- Qd  card- Qc  card- 6h  card-
+6c  card- 4c  card- 4h
+  card- Kc  card- Kh  card- 5h  card- 5s  card- 10s  card- 10c  card- Jc  card- Jh  card- 8d  card- 8h  card- 6d  card-
+6s  card- 3h  card- 3c  card- Ad  card- Ah  card- 7c  card- 7s  card- 5c  card- 5d  card- 3s  card- 3d  card- 2h  card-
+2s  card- As  card- Ac

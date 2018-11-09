@@ -25,12 +25,18 @@ void Player :: bookCards(Card c1, Card c2){
 
 
 
-bool Player :: checkHandForBook(Card &c1, Card &c2){        //OPTIONAL
 
-} //OPTIONAL
+bool Player :: rankInHand(Card c) const {
+    int numOfCards;
+    numOfCards=myHand.size();
 
-bool Player :: rankInHand(Card c) const {                    //OPTIONAL
-}//OPTIONAL
+    for(int i=0;i<numOfCards;i++){
+        if(c.getRank()==myHand[i].getRank()){
+            return(true);
+        }
+    }
+    return (false);
+}//OPTIONAL-DONE
 
 
 
@@ -116,10 +122,18 @@ int Player :: getBookSize() const{
     return (size);
 }                 //DONE-WORKS
 
-bool Player :: checkHandForPair(Card &c1, Card &c2){            //OPTIONAL
+bool Player :: checkHandForPair(Card &c1, Card &c2){//OPTIONAL
+    int size= myHand.size();
+    for(int i=0;i<size-1;i++){
+        for(int j=i+1; j<size;j++){
+            if(myHand[i].getRank()==myHand[j].getRank()){
+                c1=myHand[i];
+                c2=myHand[j];
+                return(true);
+            }
+        }
 
+    }
+    return(false);
 }
 
-bool Player :: sameRankInHand(Card c) const{                    //OPTIONAL
-
-}

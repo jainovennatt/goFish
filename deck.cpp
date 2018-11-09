@@ -4,7 +4,6 @@
 #include <cstdlib>
 #include <string>
 
-void swapCard(int Card1, int Card2);
 
 
 Deck :: Deck(){
@@ -22,9 +21,6 @@ Deck :: Deck(){
 }
 
 void Deck ::shuffle(){
-     //  for(int i=0;i<10;i++){
-     //      dealCard();
-     //  }
 
         time_t timer;
         if (size()==1||size()==0){
